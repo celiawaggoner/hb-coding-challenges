@@ -15,7 +15,7 @@ def merge_sort(lst):
 
         # compare items in both lists and assign into new list accordingly
 
-        while left_index < len(left) and right_index <len(right):
+        while left_index < len(left) and right_index < len(right):
             if left[left_index] < right[right_index]:
                 lst[new_index] = left[left_index]
                 left_index += 1
